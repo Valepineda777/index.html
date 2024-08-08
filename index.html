@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <title>Descubre el grandioso mundo de los animales domesticos</title>
+    <style> 
+
+    * {
+        box-sizing: border-box;
+    }
+    
+    header, section, footer {
+        display: block;
+        width: 100%;
+        padding: 30px;
+        margin: 10px;
+        border: 3px solid orange;
+    }
+
+    a {
+        display: block;
+        padding: 10px;
+        margin: 5px;
+        background-color: antiquewhite; 
+    }
+
+    strong, em {
+        display: inline;
+        color: black;
+    }
+
+    #absoluto {
+        position: absolute;
+        top: 15px;
+        left: 10px;
+        width: 150px;
+        height: 150px;
+        background-color: lightgrey;
+        color: black;
+        padding: 15px;
+    }
+
+    #relativo {
+        position: relative;
+        top: 15px;
+        left: 10px;
+        width: 150px;
+        height: 150px;
+        background-color: lightgrey;
+        color: black;
+        padding: 15px;
+    }
+
+
+    body {
+        background-color: beige;
+    }
+
+    .navbar {
+        background-color: white;
+        width: 100%;
+        height: 60px;
+        float: center;
+        line-height: 60px;
+    }
+
+    .navbar ul {
+        text-align: center;
+        list-style-type: none;
+
+    }
+
+    .navbar li {
+        display: inline;
+       
+    }
+
+    .navbar a.nav-link {
+        display: inline-block;
+        color: black;
+        padding: 15px 20px;
+        text-decoration: none;
+       
+    }
+
+    .navbar a.nav-link:hover,
+    .navbar a.nav-link.active {
+        background-color: gray;
+       
+    }
+
+    #Que-conoceras {
+        color:orange;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: large;
+        text-align: right;
+        line-height: 1.5;
+        word-spacing: 3px;
+    }
+    #Más-contenido, #introduccion, .highlighted-paragraph {
+        color:forestgreen;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: medium;
+        text-align: justify;
+        line-height: 1.5;
+        word-spacing: 2px;
+    }
+   
+        table {
+        border: 3px outset black ;
+        text-align: center;
+        padding: 2%;
+        }
+
+        th,td {
+        margin: 10px;
+        border: 3px outset black ;
+        }
+
+        #mas-contenido {
+        text-shadow: 1px 1px 2px black;
+        text-decoration: underline, line-through;
+        }
+
+        .Tips li {
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            color: yellow;
+            margin-bottom: 10px;
+        }
+
+        .Tips li:hover {
+            color:goldenrod;
+            cursor: pointer;
+        }
+    </style>
+  </head>  
+  <body>
+    <nav class="navbar">
+        <ul>
+        <li><a class="nav-link" href="#inicio">inicio</a></li>
+        <li><a class="nav-link" href="#Perros">Perros</a></li>
+        <li><a class="nav-link" href="#Gatos">Gatos</a></li>
+        <li><a class="nav-link" href="#Animales de granja">Animales de granja</a></li>
+        <li><a class="nav-link" href="#Nutrición">Nutrición</a></li>
+        <li><a class="nav-link" href="#Entrenamiento">Entrenamiento</a></li>
+        <li><a class="nav-link" href="#Cuidados en perros y gatos">Cuidados en perros y gatos</a></li>
+        <li><a class="nav-link" href="#Cuidados en otros animales">Cuidados en otros animales</a></li>
+    </ul>
+    </nav>
+        <header>
+        <p id="introduccion">Hablaremos sobre todos los aspectos más importantes de los animales domésticos, su alimentación, comportamientos, impacto, salud, diferentes especies y mucho más.
+            Aquí aprenderás datos muy interesantes sobre animales domésticos, desde perros, hasta animales no tan comunes en nuestros hogares.
+            Esta pagina tratara temas más importantes de los animales domésticos en general y algunos específicos.</p>
+            </header>
+
+            <div id="absoluto">posicion absoluta</div>
+            <div id="relativo">posicion relativa</div>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Tipos de animales</th>
+                        <th>Caracteristicas</th>
+                        <th>Cuidados especiales</th>
+                    </tr>
+                </thead>
+                <tbody>
+
+                <tr>
+                    <td>Perros</td>
+                    <td>Son amigables con el humano, son sociales y juguetones por naturaleza</td>
+                    <td>Necesitan el consumo de carne, juego constante y agua siempre disponible</td>
+                </tr>
+                <tr>
+                    <td>Gatos</td>
+                    <td>Son independientes, no son tan sociales y son muy juguetones</td>
+                    <td>Necesitan un arenero para hacer sus necesidades, un espacio limpio y un gimnasio o espacio amplio</td>
+                </tr>
+                <tr>
+                    <td>Animales de granja</td>
+                    <td>Son animales con un cuidado distinto al de un perro o gato, ya que su alimento y necesidades basicas varian</td>
+                    <td>Necesitan un espacio grande y adecuado, comida segun la especie y un cuidado de profesionales</td>
+                </tr>
+                </tbody>
+            </table>
+
+                <section>
+                <h1 id="Que-conoceras">¿Que conoceras?</h1>
+                <ul>
+                <li>
+                    <h2><a href= "Perros">Perros</a></h2>
+                    <p>A estos se les reconoce como el mejor amigo del hombre, aunque en realidad esto depende mucho de su edición, así que, aquí te contamos un poco sobre ellos.
+                        Los perros son animales que naturalmente les gusta estar y aprender en mandas, aunque puede que algunos no les guste el trato con demas perros, animales y humanos, pero, esto puede variar dependiendo de la socialización que se le brinde al perro, además de la seguridad y las buenas experiencias de vida. Estos animales suelen ser juguetones, cazadores y muy inteligentes si se les enseña adecuadamente.</p>
+                </li>
+
+                <li>
+                    <h2><a href= "Gatos">Gatos</a></h2>
+                    <p>Los gatos son seres muy independientes, ya que, les gusta cumplir sus necesidades solos, sin mucha ayuda extra del humano, además, son muy limpios, así que se acicalaran durante el día, preferirán que sus cosas estén completamente limpias y alejadas de su arenero.
+                        Los gatos también son juguetones, les gusta la caza y a menudo traen presas (mariposas, pájaros, libélulas, etc…) a sus dueños en forma de regalo.</p>
+                </li>
+
+                <li><a href="#Animales de granja">Animales de granja</a></li>
+                <li><a href="#Nutrición">Nutrición</a></li>
+                <li><a href="#Entrenamiento">Entrenamiento</a></li>
+                <li><a href="#Cuidados en perros y gatos">Cuidados en perros y gatos</a></li>
+                <li><a href="#Cuidados en otros animales">Cuidados en otros animales</a></li>
+                <li><a href="#Consejos para animales del hogar, perros y gatos">Consejos para animales del hogar, perros y gatos</a></li>
+            </ul>
+                </section>
+
+                <section>
+                    <h2>Tips para su cuidado</h2>
+                    <ul class="Tips">
+                        <li>Dar alimento de calidad</li>
+                        <li>Crear rutinas de ejercicio</li>
+                        <li>Cepillar diariamente</li>
+                        <li>Entrenamiento diario</li>
+                        <li>Adquirir juguetes</li>
+                    </ul>
+                </section>
+
+                <section id="Perros">
+                    <h2>Perros</h2>
+                    <p>A estos se les reconoce como el mejor amigo del hombre, aunque en realidad esto depende mucho de su edición, así que, aquí te contamos un poco sobre ellos.
+                     Los perros son animales que naturalmente les gusta estar y aprender en mandas, aunque puede que algunos no les guste el trato con demas perros, animales y humanos, pero, esto puede variar dependiendo de la socialización que se le brinde al perro, además de la seguridad y las buenas experiencias de vida. Estos animales suelen ser juguetones, cazadores y muy inteligentes si se les enseña adecuadamente.</p>
+                </section>
+
+            <section id="Gatos">
+                <h2>Gatos</h2>
+                <p>Los gatos son seres muy independientes, ya que, les gusta cumplir sus necesidades solos, sin mucha ayuda extra del humano, además, son muy limpios, así que se acicalaran durante el día, preferirán que sus cosas estén completamente limpias y alejadas de su arenero.
+                    Los gatos también son juguetones, les gusta la caza y a menudo traen presas (mariposas, pájaros, libélulas, etc…) a sus dueños en forma de regalo.</p>
+            </section>
+
+                <aside>
+                    <h1>Más-contenido</h1>
+                    <ul id="Más-contenido"></ul>
+                        <li><a href="https://youtu.be/MP6cQCP0voI?si=hWgz5wgW4NIUEtRc">Trucos para enseñarle a mi perro </a></li>
+                        <li><a href="https://youtu.be/1clNJWlolE8?si=nzAaB_Nci6owtj4x">Comida recomendada para mi mascota</a></li>
+                        <li><a href="https://www.puppis.com.co/perros/juguetes">juguetes para mascotas</a></li>
+                        <li><a href="https://youtu.be/__DoyYQRRJo?si=lL3QrtwggxcZ_Upf">entreno a mi perro?</a></li>
+                    </ul>
+                </aside>
+
+                <footer>
+                    <h1>Información del autor</h1>
+                    <p>Nombre: Valeria Pineda Prieto</p>
+                    <p>Contacto: 2639326</p>
+                    <p>Correo: Valeriapineda631@gmail.com</p>
+                    <p>Institución: Skolmi 10°</p>
+
+                    <img src="https://tse4.mm.bing.net/th/id/OIP.KCaVW78w_JTQXRmyNRhEdwHaE7?w=626&h=417&rs=1&pid=ImgDetMain">
+                </footer>
+
